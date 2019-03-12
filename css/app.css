@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,10 +17,8 @@ body {
 
 .header{
     z-index: 1;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
-    top: 50%;
-    left: 50%;
     color: #ffffff;
 }
 
@@ -29,4 +31,105 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.link {
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.down{
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-chevron-down::before {
+    content: "\f078";
+}
+
+.fa{
+    display: inline-block;
+    font: 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.down .icon{
+    position: absolute;
+    transform-style: preserve-3d;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-17%,-50%);
+    width: 100px;
+    height: 100px;
+    fill: #ffffff;
+    animation: pulse 1.3s infinite;
+}
+
+#skills {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.skill-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.skill-header h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.skills-cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.card {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.card-title h4{
+    font-weight: 700;
+}
+
+.list-skills{
+    margin-top: 2em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+#projects{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000033;
+}
+
+.projects-header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 2em;
+    color: #ffffff;
 }
