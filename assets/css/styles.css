@@ -9,7 +9,7 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #DAE3E7;
+  background: rgb(133, 18, 62);
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #3AAA64;
+  color: rgb(133, 18, 62);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -32,7 +32,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #5f6b77;
-  color: #2d844e;
+  color: rgb(133, 18, 62);
 }
 
 a:focus {
@@ -60,16 +60,16 @@ a:focus {
 }
 
 a.btn-cta-primary, .btn-cta-primary {
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
+  background: rgb(133, 18, 62);
+  border: 1px solid rgb(133, 18, 62);
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 a.btn-cta-primary:hover, .btn-cta-primary:hover {
-  background: #49ac43;
-  border: 1px solid #49ac43;
+  background: rgb(133, 18, 62);
+  border: 1px solid rgb(133, 18, 62);
   color: #fff;
 }
 
@@ -92,7 +92,7 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
 }
 
 .badge-theme {
-  background: #3AAA64;
+  background: rgb(133, 18, 62);
   font-size: 12px;
   color: #fff;
   -webkit-border-radius: 2px;
@@ -265,7 +265,7 @@ a.dotted-link:hover {
 }
 
 .latest .has-ribbon .text {
-  background: #3AAA64;
+  background: rgb(133, 18, 62);
   color: #fff;
 }
 
@@ -445,7 +445,7 @@ a.dotted-link:hover {
 
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: rgb(158, 72, 105);
 }
 
 .skills .svg-inline--fa {
@@ -476,7 +476,7 @@ a.dotted-link:hover {
 }
 
 .testimonials .item .quote .svg-inline--fa {
-  color: #79d19a;
+  color: rgb(133, 18, 62);
   margin-right: 15px;
 }
 
